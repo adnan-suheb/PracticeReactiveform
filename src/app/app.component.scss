@@ -1,0 +1,73 @@
+.formContainer {
+    background-color: #fff;
+    padding: 50px 0;
+    margin-top: 50px;
+}
+
+.inputControl {
+    margin: 8px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    i {
+        margin-right: 10px;
+        font-size: 1rem;
+    }
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+mat-icon {
+    cursor: pointer;
+}
+
+.addSkillIcon:hover {
+    transform: scale(1.5);
+    color: #00008a;
+    transition: all .2s ease-in-out;
+}
+
+
+.emailErrorMsg {
+    margin-top: 2px;
+    font-size: 11px;
+    position: absolute;
+    top: 110%;
+
+    .pendingMsg {
+        display: flex;
+        align-items: center;
+
+        .spinner-border {
+            width: 10px;
+            height: 10px;
+        }
+
+    }
+}
+
+.addressColumn {
+    .inputControl{
+        display: flex;
+        justify-content: start;
+    }
+    mat-form-field {
+        width: 80%;
+    }
+    .isAddressSame{
+        margin: 35px 0;
+    }
+}
+
+
+.submitBtn {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
